@@ -7,7 +7,7 @@ sudo n latest
 
 sudo apt-get install nginx
 
-ssh-keygen
+sudo ssh-keygen
 sudo apt-get install git
 
 sudo sed -i 's/^#*\(ClientAliveInterval\) .*/\1 20/' /etc/ssh/sshd_config
